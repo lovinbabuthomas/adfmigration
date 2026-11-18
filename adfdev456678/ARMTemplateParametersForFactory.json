@@ -1,0 +1,114 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdev456678"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"DS_SINK_PARQET_accountKey": {
+			"value": ""
+		},
+		"DS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_ADLSCSV_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_PARQUE_accountKey": {
+			"value": ""
+		},
+		"LS_CSVBULK_accountKey": {
+			"value": ""
+		},
+		"LS_CSVBULK1_accountKey": {
+			"value": ""
+		},
+		"LS_SOURCE_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_D1_password": {
+			"value": ""
+		},
+		"LS_SQL_TO_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServerTable1_password": {
+			"value": ""
+		},
+		"SapEcc1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage111.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdevexcelsource10.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger1101.dfs.core.windows.net/"
+		},
+		"DS_SINK_PARQET_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage111.dfs.core.windows.net/"
+		},
+		"DS_SQLSERVER_properties_typeProperties_server": {
+			"value": "DESKTOP-FONS71K\\SQLEXPRESS"
+		},
+		"DS_SQLSERVER_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"DS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_ADLSCSV_properties_typeProperties_url": {
+			"value": "https://adlsdevexcelsource10.dfs.core.windows.net/"
+		},
+		"LS_BULK_PARQUE_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttrigger1101.dfs.core.windows.net/"
+		},
+		"LS_CSVBULK_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttrigger1101.dfs.core.windows.net/"
+		},
+		"LS_CSVBULK1_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger1101.dfs.core.windows.net/"
+		},
+		"LS_SOURCE_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsdevexcelsource10.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_D1_properties_typeProperties_server": {
+			"value": "DESKTOP-FONS71K\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_D1_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SQLSERVER_D1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQL_TO_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsinkstorage111.dfs.core.windows.net/"
+		},
+		"LS_SqlServerTable1_properties_typeProperties_server": {
+			"value": "DESKTOP-FONS71K\\SQLEXPRESS"
+		},
+		"LS_SqlServerTable1_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"LS_SqlServerTable1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SapEcc1_properties_typeProperties_url": {
+			"value": "httpdata"
+		},
+		"SapEcc1_properties_typeProperties_username": {
+			"value": "sa"
+		}
+	}
+}
