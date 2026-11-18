@@ -1,0 +1,24 @@
+{
+	"name": "SCH_BANK_CSV_TRIG",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_COPY_ADLSCSV_ADLSPAR",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-17T12:40:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
